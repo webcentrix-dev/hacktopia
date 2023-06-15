@@ -1,155 +1,161 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
 
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=chrome=1" />
-    <link rel="stylesheet" href="./style.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Hacktopia</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 
-<body style="margin: 0%;">
-    <div id="main">
-        <div id="background">
-            <img src="./main_page.png" id="background" alt="none">
-        </div>
-        <button id="button" type="button" class="btn-primary text-dark" onclick="">
-            Download brochere
-        </button>
-
-    </div>
-    <br>
-    <div id="container-about">
-        <div class="row">
-            <div class="col">
-                <text id="head">About GNI</text>
-                <br>
-                <br>
-                <br>
-                <text style="font-size: 30px;">Guru Nanak Institutions (GNI) is a multi-disciplinary group of
-                    institutions situated within 30 minutes drive from Hyderabad International Airport, in the Greater
-                    Hyderabad Municipal Corporation limits. GNI offers various Faculties of studies viz, Engineering,
-                    Management Studies and Pharmacy. GNI is a dream venture of Guru Nanak Educational Society (GNES)
-                    having an excellent track record of 22 years in delivering quality higher education in the fields of
-                    Engineering & Technology, Pharmacy, Management and Dental Sciences.</text>
-            </div>
-            <div class="col">
-                <img src="./about college.jpeg" id="about-college-img" alt="none">
-            </div>
-        </div>
-    </div>
-    <div class="dropdown-divider"></div>
-    <div id="container-1">
-        <div class="row">
-            <div class="col-8">
-                <text id="head">About <u>HACKTOPIA</u></text>
-                <br>
-                <br>
-                <br>
-                <text style="font-size: 30px;">Hacktopia is a Hackathon event being conduct first time in GNI Campus
-                    under the Aegis of Department of Computer Science & Engineering The term "hackathon" is derived from
-                    the combination of the phrases "hack" and "marathon." In its most basic form, a hackathon is a
-                    collaborative problem-solving challenge. The goal is to encourage innovation and showcase fresh
-                    ideas or solutions.</text>
-            </div>
-        </div>
-    </div>
-    <div class="dropdown-divider"></div>
-    <div id="container-2">
-        <text id="head">Themes</text>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div id="container">
-        <div class="row">
-            <div class="col-sm text-light " style="height: 20em ;background-color: #0A1A44;">
-                <div class="row">
-
-                    <div class="col" style="margin: 7%;">
-                        <button class="dot " >
-                            1
-                        </button>
-                    </div>
-                    <div class="col dot-text">
-                        Healthcare
-                    </div>
-                </div>
-
-                
-                
-                <div class="row">
-
-                    <div class="col" style="margin: 7%;">
-                        <button class="dot " >
-                            2
-                        </button>
-                    </div>
-                    <div class="col dot-text">
-                        Protection, Security & Surveillance
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div class="col-sm text-light" style="height: 20em ;background-color: #071332;">
-                <div class="row">
-
-                    <div class="col" style="margin: 7%;">
-                        <button class="dot ">
-                            3
-                        </button>
-                    </div>
-                    <div class="col dot-text">Waste management
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm text-light" style="height: 20em ;background-color: #0A1A44;">
-                <div class="row">
-
-                    <div class="col" style="margin: 7%;">
-                        <button class="dot " >
-                            4
-                        </button>
-                    </div>
-                    <div class="col dot-text">
-                        Smart systems
-                    </div>
-                </div>
-
-                
-                
-                <div class="row">
-
-                    <div class="col" style="margin: 7%;">
-                        <button class="dot " >
-                            5
-                        </button>
-                    </div>
-                    <div class="col dot-text">
-                        E-commerce
-                    </div>
-                </div>
-            </div>
+<body>
+  <div>
+    <div class="container-fluid ">
+      <header
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <div class="col-md-3 ">
+          <a href="/" class="">
+            <img src="/assets/nav-logo.png" class="logo">
+          </a>
         </div>
 
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-4 link-secondary">Home</a></li>
+          <li><a href="#" class="nav-link px-4">About</a></li>
+          <li><a href="#" class="nav-link px-4">Themes</a></li>
+        </ul>
+
+        <div class="col-md-3 text-end">
+
+        </div>
+      </header>
     </div>
-    </div>
+  </div>
+
+  <div class="input-group-1">
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Album example</h1>
+          <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the
+            creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="about-group w-layout-grid about-grid">
+    <section class="container-about">
+      <div class="row">
+        <div class="col-6 col-md-6">
+
+          <div class="home-section-wrap m-5">
+            <div class="label cc-light ">About</div>
+            <h2 class="section-heading">GNI</h2>
+            <p class="paragraph-light">Guru Nanak Institutions (GNI) is a multi-disciplinary group of institutions
+              situated within 30 minutes' drive from Hyderabad International Airport, in the Greater Hyderabad Municipal
+              Corporation limits. GNI offers various Faculties of studies viz, Engineering, Management Studies and
+              Pharmacy. GNI is a dream venture of Guru Nanak Educational Society (GNES) having an excellent track record
+              of 22 years in delivering quality higher education in the fields of Engineering &amp; Technology,
+              Pharmacy, Management and Dental Sciences.</p>
+          </div>
+
+        </div>
+        <div class="col-6 col-md-6">
+          <div class=" ">
+            <img src="/assets/pinkbuilding.jpeg/" class="img">
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <div class="about-group w-layout-grid about-grid">
+    <section class="container-about">
+      <div class="row">
+        <div class="col-6 col-md-6">
+
+          <div class=" ">
+            <img src="/assets/Guru Nanak Institutions Technical Campus .png" class="img">
+          </div>
+
+        </div>
+        <div class="col-6 col-md-6 ">
+          <div class="home-section-wrap m-5">
+            <div class="label cc-light">about</div>
+            <h2 class="section-heading">HACKTOPIA</h2>
+            <p class="paragraph-light">Hacktopia, is a Hackathon event being conduct first time in GNI Campus under the
+              Aegis of Department of Computer Science &amp; Engineering The term "hackathon" is derived from the
+              combination of the phrase's "hack" and "marathon." In its most basic form, a hackathon is a collaborative
+              problem-solving challenge. The goal is to encourage innovation and showcase fresh ideas or solutions.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <div class="divider"></div>
+
+
+
+    <div class="container-themes my-5 ">
+      <div class="blog-heading">
+        <div class="label cc-light">hackathon</div>
+        <h2 class="work-heading">Themes</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="row">
+        <div class="col col-4">
+          <ul role="list">
+            <li class="list-item">Healthcare</li>
+            <li class="list-item my-4">Protection, Security &amp; Surveillance</li>
+          </ul>
+        </div>
+        <div class="col col-4">
+          <ul role="list">
+            <li class="list-item">Waste management</li>
+          </ul>
+        </div>
+        <div class="col col-4">
+          <ul role="list">
+            <li class="list-item">Smart systems</li>
+            <li class="list-item my-4 ">E-commerce</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
 
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" async defer></script>
 </body>
-
 
 </html>
